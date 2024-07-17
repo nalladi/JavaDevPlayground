@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-class JavaStream1 {
+class JavaStream {
     public static void main(String[] args) {
         List<Person> people = new ArrayList<>();
         for (int i = 0; i < 10000000; i++) {

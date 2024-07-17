@@ -2,11 +2,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.Set;
 
-/*
+
 public class LoyalCustomerAnalyzer {
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
-*/
-/*    public static void main(String[] args) {
+
+    public static void main(String[] args) {
         if(args.length < 2) {
             System.err.println("Usage: expected two dates");
             System.exit(1);
@@ -21,12 +21,14 @@ public class LoyalCustomerAnalyzer {
 
         System.out.println("Loyal Customers: " + loyalCustomers);
 
-    }*//*
+    }
 
 
     private static Set<String> findLoyalCustomers(Map<String, Set<String>> dayXLogs, Map<String, Set<String>> dayYLogs) {
+        return Set.of();
     }
 
     private static Map<String, Set<String>> readLogs(String dayXLogFile) {
+        return Map.of();
     }
-}*/
+}
